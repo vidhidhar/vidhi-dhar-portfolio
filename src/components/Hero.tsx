@@ -1,25 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Download } from "lucide-react";
-import heroImage from "@/assets/hero-data-science.jpg";
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
-      {/* Background Image */}
-      <div className="absolute inset-0 z-0">
-        <img 
-          src={heroImage} 
-          alt="Data Science Background" 
-          className="w-full h-full object-cover opacity-20"
-        />
-        <div className="absolute inset-0 bg-gradient-hero opacity-80"></div>
-      </div>
-      
       {/* Floating Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-20 left-20 w-32 h-32 bg-primary/10 rounded-full blur-xl animate-pulse"></div>
         <div className="absolute bottom-20 right-20 w-48 h-48 bg-accent/10 rounded-full blur-xl animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-10 w-24 h-24 bg-primary/5 rounded-full blur-lg animate-pulse delay-500"></div>
+        <div className="absolute top-1/2 left-10 w-24 h-24 bg-primary/10 rounded-full blur-lg animate-pulse delay-500"></div>
       </div>
 
       {/* Content */}
@@ -39,11 +28,20 @@ const Hero = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-fade-in delay-300">
-          <Button size="lg" className="bg-gradient-primary hover:shadow-glow transition-all duration-300">
+          <Button 
+            size="lg" 
+            className="bg-gradient-primary hover:shadow-glow transition-all duration-300"
+            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             <Mail className="mr-2 h-5 w-5" />
             Get In Touch
           </Button>
-          <Button variant="outline" size="lg" className="border-primary/50 hover:bg-primary/10">
+          <Button 
+            variant="outline" 
+            size="lg" 
+            className="border-primary/50 hover:bg-primary/10"
+            onClick={() => window.open('mailto:vidhidhar.vd@gmail.com?subject=CV Request', '_blank')}
+          >
             <Download className="mr-2 h-5 w-5" />
             Download CV
           </Button>
@@ -53,21 +51,25 @@ const Hero = () => {
         <div className="flex justify-center gap-6 animate-fade-in delay-500">
           <a 
             href="https://linkedin.com/in/vidhidhar" 
-            className="p-3 rounded-full bg-card/20 backdrop-blur-sm border border-border/50 hover:bg-primary/20 hover:border-primary/50 transition-all duration-300 hover:scale-110"
+            className="p-3 rounded-full bg-card/50 backdrop-blur-sm border border-border hover:bg-primary/10 hover:border-primary/50 transition-all duration-300 hover:scale-110"
             aria-label="LinkedIn Profile"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <Linkedin className="h-6 w-6" />
           </a>
           <a 
             href="https://github.com/vidhidhar" 
-            className="p-3 rounded-full bg-card/20 backdrop-blur-sm border border-border/50 hover:bg-primary/20 hover:border-primary/50 transition-all duration-300 hover:scale-110"
+            className="p-3 rounded-full bg-card/50 backdrop-blur-sm border border-border hover:bg-primary/10 hover:border-primary/50 transition-all duration-300 hover:scale-110"
             aria-label="GitHub Profile"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <Github className="h-6 w-6" />
           </a>
           <a 
             href="mailto:vidhidhar.vd@gmail.com" 
-            className="p-3 rounded-full bg-card/20 backdrop-blur-sm border border-border/50 hover:bg-primary/20 hover:border-primary/50 transition-all duration-300 hover:scale-110"
+            className="p-3 rounded-full bg-card/50 backdrop-blur-sm border border-border hover:bg-primary/10 hover:border-primary/50 transition-all duration-300 hover:scale-110"
             aria-label="Email Contact"
           >
             <Mail className="h-6 w-6" />
