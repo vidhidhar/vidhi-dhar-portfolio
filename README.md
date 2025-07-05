@@ -1,73 +1,86 @@
-# Welcome to your Lovable project
+# Vidhi Dhar - Data Scientist Portfolio
 
-## Project info
+A modern, responsive portfolio website showcasing expertise in data science, machine learning, and analytics.
 
-**URL**: https://lovable.dev/projects/3fa1ff65-d200-484b-baa2-3f10f46e519c
+## 🌟 Features
 
-## How can I edit this code?
+- **Modern Design**: Clean, professional layout with dark theme and beautiful gradients
+- **Responsive**: Fully responsive design that works on all devices
+- **Interactive**: Smooth scrolling navigation with animated components
+- **Professional Sections**: 
+  - Hero section with contact links
+  - About me with key highlights
+  - Technical skills with proficiency levels
+  - Professional experience with achievements
+  - Key projects with detailed impact metrics
+  - Education and certifications
+  - Contact form and information
 
-There are several ways of editing your application.
+## 🚀 Quick Start
 
-**Use Lovable**
+### Local Development
+```bash
+# Install dependencies
+npm install
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3fa1ff65-d200-484b-baa2-3f10f46e519c) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Deploy to GitHub Pages
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. **Push to GitHub**: Create a new repository and push this code
+2. **Enable GitHub Pages**: 
+   - Go to repository Settings → Pages
+   - Select "GitHub Actions" as source
+3. **Build & Deploy**: The site will automatically build and deploy
 
-**Use GitHub Codespaces**
+## 🎨 Design System
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The portfolio uses a carefully crafted design system with:
+- **Primary Color**: Purple (#8B5CF6) - for main branding and CTAs
+- **Accent Color**: Teal (#059669) - for highlights and secondary elements
+- **Dark Theme**: Professional dark background with high contrast text
+- **Custom Gradients**: Beautiful gradient effects throughout
+- **Typography**: Clean, readable fonts with proper hierarchy
 
-## What technologies are used for this project?
+## 📱 Sections Overview
 
-This project is built with:
+1. **Navigation**: Fixed header with smooth scroll to sections
+2. **Hero**: Eye-catching introduction with social links and CTA
+3. **About**: Personal introduction with key achievements
+4. **Skills**: Technical expertise organized by category with proficiency levels
+5. **Experience**: Professional background with quantified achievements
+6. **Projects**: Featured projects with problem-approach-impact format
+7. **Education**: Academic background with honors and distinctions
+8. **Contact**: Multiple contact methods and contact form
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🛠 Technologies Used
 
-## How can I deploy this project?
+- **React**: Component-based UI library
+- **TypeScript**: Type-safe development
+- **Tailwind CSS**: Utility-first CSS framework
+- **Shadcn/ui**: High-quality UI components
+- **Lucide React**: Beautiful icons
+- **Vite**: Fast build tool and development server
 
-Simply open [Lovable](https://lovable.dev/projects/3fa1ff65-d200-484b-baa2-3f10f46e519c) and click on Share -> Publish.
+## 📞 Contact Information
 
-## Can I connect a custom domain to my Lovable project?
+- **Email**: vidhidhar.vd@gmail.com
+- **Phone**: +91 9654947654
+- **Location**: Delhi, India
+- **LinkedIn**: [linkedin.com/in/vidhidhar](https://linkedin.com/in/vidhidhar)
+- **GitHub**: [github.com/vidhidhar](https://github.com/vidhidhar)
 
-Yes, you can!
+## 📈 Key Achievements Highlighted
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- 2+ years of data science experience
+- 15% marketing ROI improvement
+- 30% reporting time reduction
+- 82% F1 score achievement
+- 50K+ records processed
+- 95% user satisfaction on projects
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+**Built with passion for data science and clean code** ✨
